@@ -1,7 +1,7 @@
 # Morley Hackathon (ZuriHac 2019)
 
 Are you interested in smart contracts?
-If you want to learn about them and get hands-on experience, developers from Serokell and Tocqueville are happy to offer some real-world tasks to you and help you to solve them.
+If you want to learn about this topic and get hands-on experience, developers from Serokell and Tocqueville are happy to offer some real-world tasks to you and help you to solve them.
 
 [Morley](https://gitlab.com/morley-framework/morley) is a set of developer tools for the [Michelson language](https://tezos.gitlab.io/master/whitedoc/michelson.html) which is the smart contract language of the [Tezos blockchain](https://tezos.com/).
 Tezos is a new platform for smart contracts and decentralized applications.
@@ -10,7 +10,7 @@ Its smart contract language — Michelson – is a low-level stack-based languag
 Unlike many other smart contract languages, Michelson is statically typed which can prevent many errors in contracts before they are deployed.
 
 * Go through [this tutorial](https://gitlab.com/morley-framework/michelson-tutorial) to get familiar with Michelson.
-* After that, please clone https://gitlab.com/morley-framework/morley to start hacking.
+* After that, please clone [https://gitlab.com/morley-framework/morley](https://gitlab.com/morley-framework/morley) to start hacking.
 * If you have Docker, you can try `morley` without building anything, just run the `scripts/morley.sh` script in the repo.
 * In order to build the project, you need [Stack](https://docs.haskellstack.org/en/stable/README/).
 Once you have it, you can use it directly or build the project using `Makefile` from the repo.
@@ -20,7 +20,7 @@ In the latter case type `make morley` to build Morley.
 
 For this hackathon we have selected a number of issues which we find the most suitable for it and copied them to GitLab.
 
-* Go to https://gitlab.com/morley-framework/morley/issues to see all of them.
+* Go to [https://gitlab.com/morley-framework/morley/issues](https://gitlab.com/morley-framework/morley/issues) to see all of them.
 
 We expect that different people will want to spend different amount of time on Morley, so we picked issues of different types:
 1. Some issues are relatively big (but can be done within time frame of this hackathon) and imply adding new functionality.
