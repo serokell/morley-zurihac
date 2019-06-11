@@ -1,0 +1,84 @@
+---
+---
+
+/**
+ * @license
+ * MyFonts Webfont Build ID 3771883, 2019-06-11T09:24:18-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: ProximaNova-Regular by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/regular/
+ *
+ * Webfont: ProximaNovaExCn-Regular by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/ex-cn-regular/
+ *
+ *
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3771883
+ * Licensed pageviews: 1,000,000
+ * Webfonts copyright: Copyright (c) Mark Simonson, 2005. All rights reserved.
+ *
+ * © 2019 MyFonts Inc
+ */
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/398deb");
+
+@import "{{ site.theme }}";
+
+$font-regular: 400;
+
+@font-face {
+  font-family: 'ProximaNova-Regular';
+  src: url('/assets/fonts/ProximaNova-Regular.eot');
+  src: url('/assets/fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/ProximaNova-Regular.woff2') format('woff2'),
+       url('/assets/fonts/ProximaNova-Regular.woff') format('woff'),
+       url('/assets/fonts/ProximaNova-Regular.ttf') format('truetype');
+  font-weight: $font-regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNovaExCn-Regular';
+  src: url('/assets/fonts/ProximaNovaExCn-Regular.eot');
+  src: url('/assets/fonts/ProximaNovaExCn-Regular.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/ProximaNovaExCn-Regular.woff2') format('woff2'),
+       url('/assets/fonts/ProximaNovaExCn-Regular.woff') format('woff'),
+       url('/assets/fonts/ProximaNovaExCn-Regular.ttf') format('truetype');
+  font-weight: $font-regular;
+  font-style: normal;
+}
+
+body {
+  font-family: 'ProximaNova-Regular', sans-serif;
+  font-weight: $font-regular;
+}
+
+h1, h2, h3 {
+  font-family: 'ProximaNovaExCn-Regular', sans-serif;
+  font-weight: $font-regular;
+  color: black !important;
+}
+h1 {
+  font-size: 4.375rem;
+  margin-bottom: 3rem;
+}
+h2 {
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+h3 {
+  font-size: 2rem;
+  margin-bottom: .5rem;
+}
+
+.page-header {
+  background: none;
+  color: black;
+}
