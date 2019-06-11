@@ -10,7 +10,7 @@ Its smart contract language — Michelson – is a low-level stack-based languag
 Unlike many other smart contract languages, Michelson is statically typed which can prevent many errors in contracts before they are deployed.
 
 * Go through [this tutorial](https://gitlab.com/morley-framework/michelson-tutorial) to get familiar with Michelson.
-* After that, please clone [https://gitlab.com/morley-framework/morley](https://gitlab.com/morley-framework/morley) to start hacking.
+* After that, clone [https://gitlab.com/morley-framework/morley](https://gitlab.com/morley-framework/morley) to start hacking.
 * If you have Docker, you can try `morley` without building anything, just run the `scripts/morley.sh` script in the repo.
 * In order to build the project, you need [Stack](https://docs.haskellstack.org/en/stable/README/).
 Once you have it, you can use it directly or build the project using `Makefile` from the repo.
