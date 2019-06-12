@@ -40,11 +40,8 @@ Similar to the previous one, but here you need to develop a REPL to be able to e
 3. [TM-201](https://issues.serokell.io/issue/TM-201).
 **Optimizer**.
 The goal here is to come up with a set of rules that can be used to optimize Michelson contract and implement them.
-4. [TM-200](https://issues.serokell.io/issue/TM-200).
-**Gas consumption profiler**.
-You need to gather statistics about gas consumption and display it in some nice way.
 
-These four issues are more substantial than others and will probably take more time.
+These issues are more substantial than others and will probably take more time.
 
 5. [TM-57](https://issues.serokell.io/issue/TM-57).
 There is a custom [`STACKTYPE` instruction](https://gitlab.com/morley-framework/morley/blob/master/docs/morleyInstructions.md#stacktype) which allows us to assert that the stack has a given type signature.
