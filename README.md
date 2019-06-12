@@ -31,25 +31,25 @@ They mostly imply improvements of existing functionality or adding something sma
 
 Here is an overview of all issues selected for Zurihac which should help you pick one to work on.
 We start with the most interesting issues which require the biggest effort.
-1. [TM-198](https://issues.serokell.io/issue/TM-198).
+1. [#5](https://gitlab.com/morley-framework/morley/issues/5)
 **Interactive debugger**.
 You need to develop a simplified version of `gdb` for Michelson.
-2. [TM-199](https://issues.serokell.io/issue/TM-199).
+2. [#6](https://gitlab.com/morley-framework/morley/issues/6)
 **REPL**.
 Similar to the previous one, but here you need to develop a REPL to be able to execute standalone instructions.
-3. [TM-201](https://issues.serokell.io/issue/TM-201).
+3. [#7](https://gitlab.com/morley-framework/morley/issues/7)
 **Optimizer**.
 The goal here is to come up with a set of rules that can be used to optimize Michelson contract and implement them.
 
 These issues are more substantial than others and will probably take more time.
 
-5. [TM-57](https://issues.serokell.io/issue/TM-57).
+4. [#8](https://gitlab.com/morley-framework/morley/issues/8)
 There is a custom [`STACKTYPE` instruction](https://gitlab.com/morley-framework/morley/blob/master/docs/morleyInstructions.md#stacktype) which allows us to assert that the stack has a given type signature.
 Currently one can write only concrete types (e. g. `int`) or type variables there, but not type constructors applied to type variables (e. g. `pair a b`).
 The goal is to modify parser and typechecker to make it possible.
-6. [TM-84](https://issues.serokell.io/issue/TM-84).
+5. [#9](https://gitlab.com/morley-framework/morley/issues/9)
 The goal is to update typechecker to print stack type after processing each instruction.
-7. [TM-100](https://issues.serokell.io/issue/TM-100).
+6. [#10](https://gitlab.com/morley-framework/morley/issues/10)
 Pretty printer.
 The goal is to update Michelson printer to print human-readable contract as opposed to printing everything on one line.
 
