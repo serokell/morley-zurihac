@@ -41,17 +41,20 @@ Similar to the previous one, but here you need to develop a REPL to be able to e
 **Optimizer**.
 The goal here is to come up with a set of rules for optimizing the Michelson contract and implement them.
 
-These issues are more substantial than others and will probably take more time.
+These three issues are more substantial than others and will probably take more time.
 
-4. [#8](https://gitlab.com/morley-framework/morley/issues/8)
-There is a custom [`STACKTYPE` instruction](https://gitlab.com/morley-framework/morley/blob/master/docs/morleyInstructions.md#stacktype) which allows us to assert that the stack has a given type signature.
-Currently, one can only write specific types (e. g. `int`) or type variables there – not type constructors applied to type variables (e. g. `pair a b`).
-The goal is to modify the parser and the typechecker to make it possible.
+4. [#11](https://gitlab.com/morley-framework/morley/issues/11)
+**Benchmarks**.
+Morley lacks benchmarks and we would like to add some.
 5. [#9](https://gitlab.com/morley-framework/morley/issues/9)
 The goal is to update the typechecker to print a stack type after processing each instruction.
 6. [#10](https://gitlab.com/morley-framework/morley/issues/10)
 Pretty printer.
 The goal is to update the Michelson printer to print a human-readable contract as opposed to printing everything on one line.
+7. [#8](https://gitlab.com/morley-framework/morley/issues/8)
+There is a custom [`STACKTYPE` instruction](https://gitlab.com/morley-framework/morley/blob/master/docs/morleyInstructions.md#stacktype) which allows us to assert that the stack has a given type signature.
+Currently, one can only write specific types (e. g. `int`) or type variables there – not type constructors applied to type variables (e. g. `pair a b`).
+The goal is to modify the parser and the typechecker to make it possible.
 
 These issues are about improving existing functionality and should be easier to do.
 
